@@ -1,0 +1,31 @@
+{
+  "name": "cookie-legit",
+  "description": "A cookie manager and banner plugin for WordPress",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.33",
+    "sass": "^1.69.7",
+    "sass-loader": "^13.3.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DucoDR/cookie-legit.git"
+  },
+  "keywords": [
+    "WordPress",
+    "cookies",
+    "cookie banner"
+  ],
+  "author": "Duco Drupsteen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/DucoDR/cookie-legit/issues"
+  },
+  "homepage": "https://github.com/DucoDR/cookie-legit#readme"
+}

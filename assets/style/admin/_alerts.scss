@@ -1,0 +1,11 @@
+.cl-alert {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: var(--cl-font-lg);
+
+    &.cl-alert-danger {
+        background-color: #f44336!important;
+        color: #fff;
+    }
+}

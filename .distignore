@@ -1,0 +1,15 @@
+bin
+.gitignore
+.git
+.github
+node_modules
+vendor
+*.cache
+*.dist
+.phpactor.json
+webpack.config.js
+phpstan.neon
+README.md
+.wordpress-org
+.travis.yml
+tests

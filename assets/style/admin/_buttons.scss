@@ -1,0 +1,9 @@
+.cl-primary-button {
+    background-color: var(--cl-primary-color);
+    border-radius: var(--cl-button-radius);
+    color: #fff;
+    padding: var(--cl-button-y-padding) var(--cl-button-x-padding);
+    border: solid 1px var(--cl-primary-color);
+    font-size: var(--cl-font-md);
+    cursor: pointer;
+}

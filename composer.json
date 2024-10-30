@@ -1,0 +1,40 @@
+{
+    "name": "cookie-legit/cookie-legit",
+    "description": "Setup a GDPR compliant cookie banner in minutes right from the WP Admin",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "9.6",
+        "yoast/phpunit-polyfills": "^2.0",
+        "wildwolf/wordpress-test-library-stubs": "dev-master",
+        "szepeviktor/phpstan-wordpress": "dev-master",
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpstan/extension-installer": "1.4.x-dev"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "CookieLegit\\CookieLegit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cookie Legit",
+            "email": "devs@cookielegit.site"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ],
+        "phpcs": [
+            "./vendor/bin/phpcs -ps ./src/ --standard=WordPress"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}

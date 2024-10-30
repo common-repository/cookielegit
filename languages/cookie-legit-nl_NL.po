@@ -1,0 +1,342 @@
+# Copyright (C) 2024 CookieLegit
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Legit 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cookie-legit\n"
+"POT-Creation-Date: 2024-02-29T14:16:39+01:00\n"
+"PO-Revision-Date: 2024-02-29 14:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: cookie-legit\n"
+
+#. Plugin Name of the plugin
+#: src/admin/class-cl-admin-menu.php:10 src/admin/class-cl-admin-menu.php:11
+msgid "Cookie Legit"
+msgstr "Cookie Legit"
+
+#. Description of the plugin
+msgid "The last cookie manager you'll need"
+msgstr "De laatste cookie manager die je nodig hebt"
+
+#. Author of the plugin
+msgid "CookieLegit"
+msgstr "CookieLegit"
+
+#. Author URI of the plugin
+msgid "https://cookielegit.site/"
+msgstr "https://cookielegit.site/"
+
+#: src/admin/class-cl-admin-menu.php:24 src/admin/class-cl-admin-menu.php:25
+#: view/admin/settings/partials/notice_fields.php:5
+#: view/admin/settings/settings.php:9
+msgid "Notice settings"
+msgstr "Melding instellingen"
+
+#: src/admin/class-cl-admin-menu.php:33 src/admin/class-cl-admin-menu.php:34
+#: view/admin/settings/partials/pixel_fields.php:4
+#: view/admin/settings/settings.php:10
+msgid "Pixel settings"
+msgstr "Pixel instellingen"
+
+#: src/admin/class-cl-admin-menu.php:42 src/admin/class-cl-admin-menu.php:43
+#: view/admin/settings/settings.php:11
+msgid "Blocking"
+msgstr "Blokeren"
+
+#: src/models/class-cl-settings.php:31
+msgid "This website uses cookies to ensure the best user experience."
+msgstr ""
+"Deze website maakt gebruik van cookies om je de beste gebruikers ervaring te "
+"geven."
+
+#: src/models/class-cl-settings.php:39
+msgid "Learn more"
+msgstr "Lees meer"
+
+#: src/models/class-cl-settings.php:47
+msgid "Change preferences"
+msgstr "Voorkeur aanpassen"
+
+#: src/models/class-cl-settings.php:55
+msgid "Save preferences"
+msgstr "Voorkeur opslaan"
+
+#: src/models/class-cl-settings.php:63
+msgid "Accept"
+msgstr "Accepteren"
+
+#: src/models/class-cl-settings.php:71
+msgid "Deny"
+msgstr "Afwijzen"
+
+#: src/models/class-cl-settings.php:81
+msgid "Essential cookies"
+msgstr "Essentiële cookies"
+
+#: src/models/class-cl-settings.php:82
+msgid "Cookies that make the website function as intended"
+msgstr ""
+"Cookies die nodig zijn om de website te laten functioneren zoals bedoeld."
+
+#: src/models/class-cl-settings.php:85
+msgid "Analytical cookies"
+msgstr "Analytische cookies"
+
+#: src/models/class-cl-settings.php:86
+msgid "Cookies that keep track of you."
+msgstr ""
+"Deze cookies helpen ons een beter inzicht te krijgen van de gebruikers op "
+"onze site"
+
+#: src/models/class-cl-settings.php:89
+msgid "Marketing cookies"
+msgstr "Marketing cookies"
+
+#: src/models/class-cl-settings.php:90
+msgid "Cookies with marketing purpose."
+msgstr "Cookies met een marketing doeleinde"
+
+#: src/models/class-cl-settings.php:108
+msgid "Allow marketing cookies to see iframes"
+msgstr "Sta cookies toe om iframes te zien"
+
+#: src/models/class-cl-settings.php:136
+msgid "Top"
+msgstr "Bovenaan"
+
+#: src/models/class-cl-settings.php:137
+msgid "Bottom"
+msgstr "Onderaan"
+
+#: src/models/class-cl-settings.php:143
+msgid "Top left"
+msgstr "Linksboven"
+
+#: src/models/class-cl-settings.php:144
+msgid "Top right"
+msgstr "Rechtsboven"
+
+#: src/models/class-cl-settings.php:145
+msgid "Bottom left"
+msgstr "Linksonder"
+
+#: src/models/class-cl-settings.php:146
+msgid "Bottom right"
+msgstr "Rechtsonder"
+
+#: view/admin/partials/cl-header.php:8
+msgid "Go pro"
+msgstr "Go pro"
+
+#: view/admin/partials/cl-header.php:9
+msgid "FAQ"
+msgstr "FAQ"
+
+#: view/admin/partials/cl-header.php:10
+msgid "About"
+msgstr "Over"
+
+#: view/admin/settings/partials/additional_fields.php:4
+msgid "Additional settings"
+msgstr "Extra instellingen"
+
+#: view/admin/settings/partials/additional_fields.php:5
+#: view/admin/settings/partials/block_fields.php:10
+#: view/admin/settings/partials/notice_fields.php:10
+#: view/admin/settings/partials/notice_fields.php:167
+#: view/admin/settings/partials/pixel_fields.php:5
+#: view/admin/settings/partials/pixel_fields.php:39
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: view/admin/settings/partials/additional_fields.php:10
+msgid "Give us some love"
+msgstr "Geef ons wat liefde"
+
+#: view/admin/settings/partials/additional_fields.php:11
+msgid ""
+"This option will add our logo under the explanation about cookies in the "
+"preferences screen. We would appreciate it much!"
+msgstr ""
+"Deze optie plaatst ons logo met een link naar onze website in het voorkeur "
+"scherm"
+
+#: view/admin/settings/partials/block_fields.php:5
+msgid "Blocking settings"
+msgstr "Blokeer instellingen"
+
+#: view/admin/settings/partials/block_fields.php:15
+msgid "Iframe's"
+msgstr "Iframe's"
+
+#: view/admin/settings/partials/block_fields.php:16
+msgid "Prevent iframe's from loading an placing unwanted cookies."
+msgstr "Voorkom dat iframes ongewenste cookies plaatsen"
+
+#: view/admin/settings/partials/block_fields.php:20
+msgid "Block Iframe's"
+msgstr "Blokeer Iframes"
+
+#: view/admin/settings/partials/block_fields.php:32
+msgid "Iframe overlay"
+msgstr "Iframe overlay"
+
+#: view/admin/settings/partials/block_fields.php:33
+msgid "This overlay will appear when Iframe's are blocked"
+msgstr "Deze overlay verschijnt wanneer Iframe's zijn geblokkeerd"
+
+#: view/admin/settings/partials/block_fields.php:37
+msgid "Overlay text"
+msgstr "Overlay tekst"
+
+#: view/admin/settings/partials/block_fields.php:44
+#: view/admin/settings/partials/notice_fields.php:72
+#: view/admin/settings/partials/notice_fields.php:132
+msgid "Background"
+msgstr "Achtergrond"
+
+#: view/admin/settings/partials/block_fields.php:56
+msgid "Script blocking"
+msgstr "Scripts blokeren"
+
+#: view/admin/settings/partials/block_fields.php:57
+msgid "Prevent scripts from loading when your user hasn't accepted cookies yet"
+msgstr ""
+"Voorkom dat scripts worden geladen die mogelijk niet functionele cookies "
+"plaatsen"
+
+#: view/admin/settings/partials/block_fields.php:60
+msgid "Block scripts"
+msgstr "Blokeer scripts"
+
+#: view/admin/settings/partials/block_fields.php:72
+msgid ""
+"Exclude scripts from being blocked, some scripts might be necessary to let "
+"your site function. One script per line."
+msgstr ""
+"Sluit scripts uit voor blokkering. Sommige scripts kunnen nodig zijn om uw "
+"site te laten functioneren. Eén script per regel."
+
+#: view/admin/settings/partials/notice_fields.php:15
+msgid "Notice type"
+msgstr "Melding soort"
+
+#: view/admin/settings/partials/notice_fields.php:16
+msgid ""
+"This is type of banner that will be display when the user first visits your "
+"site."
+msgstr ""
+"Het type melding dat geplaatst wordt als gebruikers nog geen consent hebben "
+"gegeven"
+
+#: view/admin/settings/partials/notice_fields.php:33
+msgid "Notice position"
+msgstr "Melding positie"
+
+#: view/admin/settings/partials/notice_fields.php:34
+msgid "This controls the position of the cookie notice."
+msgstr "Dit bepaald waar de melding geplaatst wordt"
+
+#: view/admin/settings/partials/notice_fields.php:48
+msgid "The selected notice type does not have position options"
+msgstr "De gekozen melding soort heeft geen positive mogelijkheden"
+
+#: view/admin/settings/partials/notice_fields.php:56
+msgid "Notice text"
+msgstr "Melding tekst"
+
+#: view/admin/settings/partials/notice_fields.php:57
+msgid "Let your users know that you're using cookies."
+msgstr "Laat uw gebruikers weten dat je cookies gebruikt"
+
+#: view/admin/settings/partials/notice_fields.php:67
+msgid "Notice appearance"
+msgstr "Melding uiterlijk"
+
+#: view/admin/settings/partials/notice_fields.php:68
+msgid "Style the cookie notice your way."
+msgstr "Geef de melding een uiterlijk dat bij je website past"
+
+#: view/admin/settings/partials/notice_fields.php:76
+msgid "Text color"
+msgstr "Tekst kleur"
+
+#: view/admin/settings/partials/notice_fields.php:80
+#: view/admin/settings/partials/notice_fields.php:140
+msgid "Border radius"
+msgstr "Randradius"
+
+#: view/admin/settings/partials/notice_fields.php:87
+msgid "Privacy link"
+msgstr "Privacylink"
+
+#: view/admin/settings/partials/notice_fields.php:88
+msgid "Let users find you privacy statement."
+msgstr "Laat gebruiker uw privacyverklaring vinden op een makkelijke manier"
+
+#: view/admin/settings/partials/notice_fields.php:107
+msgid "User concent"
+msgstr "Gebruikers voorkeur"
+
+#: view/admin/settings/partials/notice_fields.php:108
+msgid "Let users set their cookie preferences."
+msgstr "Laat gebruikers hun voorkeur instellen"
+
+#: view/admin/settings/partials/notice_fields.php:123
+msgid "Change the text and style of the %s button"
+msgstr "Verander de tekst en opmaak van de %s knop"
+
+#: view/admin/settings/partials/notice_fields.php:127
+msgid "Button text"
+msgstr "Knop tekst"
+
+#: view/admin/settings/partials/notice_fields.php:136
+msgid "Color"
+msgstr "Kleur"
+
+#: view/admin/settings/partials/notice_fields.php:150
+msgid "%s text"
+msgstr "%s tekst"
+
+#: view/admin/settings/partials/notice_fields.php:151
+msgid "Let your users what %s cookies are in your own words"
+msgstr "Laat gebruikers weten waarvoor je %s cookies gebruikt"
+
+#: view/admin/settings/partials/notice_fields.php:155
+msgid "Title"
+msgstr "Titel"
+
+#: view/admin/settings/partials/notice_fields.php:159
+msgid "Description"
+msgstr "Beschrijving"
+
+#: view/admin/settings/partials/pixel_fields.php:10
+msgid "Google tag manager consent mode"
+msgstr "Google tag manager consent mode"
+
+#: view/admin/settings/partials/pixel_fields.php:11
+msgid "Enable this if you use consent mode in Google tag manager."
+msgstr ""
+"Zet dit aan als je gebruik maakt van de Google tag manager consent mode"
+
+#: view/admin/settings/partials/pixel_fields.php:26
+msgid ""
+"Give us your %s tracking code identifier and we'll take care of the rest"
+msgstr "Vul je %s tracking code in en laat ons de rest regelen"
+
+#: view/admin/settings/settings.php:3
+msgid ""
+"You are currently editing the settings for all languages, this has no effect!"
+msgstr ""
+"Op het moment ben je de instellingen van alle talen aan het bewerken, dit "
+"heeft geen effect!"
+
+#: view/admin/settings/settings.php:12
+msgid "Additional"
+msgstr "Aanvullend"

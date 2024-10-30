@@ -1,0 +1,43 @@
+.cl-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cl-flex-col {
+    display:flex;
+    flex-direction: column;
+}
+
+.cl-align-start {
+    align-items: flex-start;
+}
+
+.cl-align-end {
+    align-items: flex-end;
+}
+
+.cl-just-start {
+    justify-content: start;
+}
+
+.cl-just-between {
+    justify-content: space-between;
+}
+
+.cl-just-end {
+    justify-content: flex-end;
+}
+
+@for $i from 1 to 6 {
+    .cl-ml-#{$i} {
+        margin-left: #{$i * 5}px!important;
+    }
+
+    .cl-mr-#{$i} {
+        margin-right: #{$i * 5}px!important;
+    }
+
+    .cl-mb-#{$i} {
+        margin-bottom: #{$i * 5}px!important;
+    }
+}
